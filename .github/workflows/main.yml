@@ -36,4 +36,4 @@ jobs:
 
       # 7️⃣ Push Docker image
       - name: Push Docker image
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/node-type-try:latest
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/node_type_try:latest
