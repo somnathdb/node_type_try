@@ -4,7 +4,9 @@ import userRoute from './routes/user.route';
 const app = express();
 
 app.use(express.json());
+
 connectDB();
+
 app.use('/users',userRoute);
 
 
